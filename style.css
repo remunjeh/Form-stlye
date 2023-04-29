@@ -40,8 +40,17 @@ line-height: 0.3rem;
 border-radius: 4px;
 cursor: pointer;
 }
+input[type=text]{
+    background-color: white;background-image: url("<i class="fa-solid fa-magnifying-glass fa-beat fa-2xs" style="color: #c32268;"></i>");
+}
+
 div:hover{
     border-radius: 5%;
-    background-color: blueviolet;
+    background: linear-gradient();
+    background: linear-gradient(30deg, purple 50%, green 40%, blue);
     padding: 20px;
+}
+input[type=text]:focus{
+    background-color: lightpink;
+    border: 5px dotted #555;
 }
