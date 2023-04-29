@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 20;
+
+}
+h3{
+    font-size: 2rem;
+    line-height: 2px;
+    color: rgb(43, 99, 99);
+}
+div{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: aqua;
+  }
+label{
+    margin: 5px;
+    line-height: 2em;
+    letter-spacing: 0.5rem;
+}
+input[type=submit] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: rgb(7, 16, 14);
+color: white;
+line-height: 0.3rem;
+border-radius: 4px;
+cursor: pointer;
+}
+div:hover{
+    border-radius: 5%;
+    background-color: blueviolet;
+    padding: 20px;
+}
